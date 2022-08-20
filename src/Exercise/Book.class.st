@@ -10,6 +10,11 @@ Class {
 	#category : #Exercise
 }
 
+{ #category : #comparing }
+Book >> = anotherBook [
+	^ self getIsbn = anotherBook getIsbn
+]
+
 { #category : #accessing }
 Book >> getIsbn [
 	^ isbn
