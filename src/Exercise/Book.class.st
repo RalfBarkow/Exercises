@@ -20,6 +20,11 @@ Book >> getIsbn [
 	^ isbn
 ]
 
+{ #category : #comparing }
+Book >> hash [
+	^ self getIsbn hash
+]
+
 { #category : #accessing }
 Book >> setIsbn: aIsbn [
 	isbn := aIsbn
