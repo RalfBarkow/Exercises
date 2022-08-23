@@ -12,6 +12,7 @@ Class {
 
 { #category : #comparing }
 Book >> = anotherBook [
+	self class = anotherBook class ifFalse: [ ^ false ].
 	^ self getIsbn = anotherBook getIsbn
 ]
 
