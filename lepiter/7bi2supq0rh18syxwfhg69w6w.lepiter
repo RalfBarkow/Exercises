@@ -1,0 +1,294 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "38e1e417-63a4-0d00-8b3d-9a630b9ea27b"
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "TestWindowFocusEventHandler"
+	},
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-09-06T14:31:09.600771+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-09-06T14:32:27.696517+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "VdKUG2OkDQCLQ0C3C56iew=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Took me a while (and multiple Gt crashes) to get from that class to understanding the logic of various components enough to test but got it working! There are two options available, one can subclass {{gtClass:BlBasicEventHandler}} or use something like below:"
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-09-06T14:30:06.83245+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-09-06T14:30:08.385669+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "mePkF2OkDQCLPvT0C56iew=="
+							},
+							"code" : "(GtWorld spaceWithId: GtWorld defaultId do: [ :theWorld | theWorld ])\n    addEventHandler: (BlEventHandler\n            on: BlSpaceFocusInEvent\n            do: [ :anEvent | \"Add your logic here\" self\n        inform: 'Window got focus. Handled without needing to create a new class.' ])"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [
+									{
+										"__type" : "pharoSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-09-06T14:39:03.266767+02:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2022-09-06T14:42:34.883252+02:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "EjreN2OkDQCLT477C56iew=="
+										},
+										"code" : "TestWindowFocusEventHandler"
+									}
+								]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-09-06T14:37:31.556917+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-09-06T14:40:23.055405+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "JGskMmOkDQCLTuPgC56iew=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "{{gtClass:TestWindowFocusEventHandler}}"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-09-06T14:31:48.719973+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-09-06T14:31:54.481847+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "34r3HWOkDQCLROH6C56iew=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "botwhytho — heute um 10:44 Uhr [discord](https://discord.com/channels/729445214812504107/736333725788274819/1016629843431002172)"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-09-07T01:28:17.888233+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-09-07T01:28:17.888233+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "HYm+SWykDQCB5lQRDke6Lw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "tudor girba\n — \ngestern um 19:27 Uhr\nI think I saw that in monitor. Could you check?"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-09-07T01:25:45.451896+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-09-07T01:28:17.889836+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "X0iaQGykDQCB3cIUDke6Lw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "botwhytho\n — \ngestern um 21:46 Uhr\nI can see it under Events tab in Monitor, and just that as a starting point was enough for me to eventually figure things out, but what I thought would take ~15 mins took more like ~2 hrs to get to the snippet above. {{gtClass:GlutinWindowFocusedEvent}} subclasses from {{gtClass:FFIExternalStructure}} so these are mapped Rust objects into Gt. I eventually needed to find the translation from that into a more typical Bloc event (BlSpaceFocusInEvent which subclasses Announcement), the mapping is found in  BlGlutinHostSpace >> #visitWindowFocusedEvent: which overrides a visitor defined in the TGlutinEventVisitor Trait. After I found that started playing around with event handlers and where they needed to be defined in (GtWorld) until things worked. The referenced crashes were my fault, or well, as I added event handlers my code had issues and debuggers came up but froze and/or I couldn't save new code directly in debugger so had to restart VM. The fact I could figure this out at all still speaks to the great discoverability affordances in Gt/Pharo 👍 . Just putting my thought patterns/journey here to say that some code, especially if it's at the 'edge' where Pharo interacts with Rust or another language with FFI, or if Traits are used and/or if the visitor pattern is used can be harder to grok.\n\nAnyways can people try and run the snippet above in various OSes to see if they can replicate getting 2 window focused events instead of one? If so I will open ticket. If issue lies around the code 'edges' in FFI code or in Glutin Rust code may be hard for a non-feenk person to troubleshoot this but definitely seems like a bug if events are getting triggered twice somewhere in the stack"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2022-09-06T14:30:06.832408+02:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2022-09-06T14:37:08.633912+02:00"
+		}
+	}
+}
